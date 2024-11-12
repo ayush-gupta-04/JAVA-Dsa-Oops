@@ -7,9 +7,9 @@ public class Box {
 
 
     Box(){
-        this.l = -1;
-        this.h = -1;
-        this.w = -1;
+        this.l = -2;
+        this.h = -2;
+        this.w = -4;
     }
 
 

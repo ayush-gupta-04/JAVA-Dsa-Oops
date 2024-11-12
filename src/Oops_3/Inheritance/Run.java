@@ -22,16 +22,16 @@ public class Run {
 
 
         //bw1 can access all variables of its own as well as of its parent.
-        BoxWeight bw1 = new BoxWeight(6,7,8,20);
+        BoxWeight bw1 = new BoxWeight(1,2,3,20);
         System.out.println(bw1.l + "  " + bw1.h + "  " + bw1.w + "  " + bw1.weight);
 
         //ref.var --> parent ..... obj --> child
         Box b4 = new BoxWeight(5,6,7,10);
-        b4.greet();
+//        b4.greet();
         //since ref. var is of parent type so we can only
         //      access the variables which are in parent class;
         //ref. var will determine which var we can access.
-        System.out.println(b4.h + "  " + b4.l + "  " + b4.w);
+//        System.out.println(b4.h + "  " + b4.l + "  " + b4.w);
 
 
 
