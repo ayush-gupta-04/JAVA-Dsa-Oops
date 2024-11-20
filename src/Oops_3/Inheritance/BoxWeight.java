@@ -13,6 +13,10 @@ public class BoxWeight extends Box{
         //if we call the super method then it will initialise the variable of parents for this child.
         //that's y we need to call the constructor of the parent class;
 //        System.out.println(super.h);    super refer to class directly above it.
+
+
+
+        //super() should be the first thing to be called here.
         this.weight = weight;
     }
 

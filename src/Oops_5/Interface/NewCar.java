@@ -5,6 +5,10 @@ public class NewCar{
     private Engine engine;
     private Brake brake;
     private Media media;
+    //we cannot make an object of an interface but can do like this
+    // Interface obj = new ClassFromInterface();
+    //Interface --> name of the interface.
+    //ClassFromInterface --> name of the class implementing interface.
 
 
     public NewCar(){

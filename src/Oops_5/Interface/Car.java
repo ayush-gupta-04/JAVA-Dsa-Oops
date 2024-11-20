@@ -1,5 +1,8 @@
 package Oops_5.Interface;
 
+
+
+//A class can implement multiple interfaces.
 public class Car implements Engine,Brake,Media {
 
     @Override
